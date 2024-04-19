@@ -1,0 +1,46 @@
+body{
+    background-color: #ddd;
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+header, footer{
+        background-color: #333;
+        color: #fff;
+        padding: 10px;    
+        text-align: center;
+
+} 
+main{ 
+    display: flex;
+    padding: 140px;
+    gap: 20px;
+
+    
+}
+
+
+.conversor{
+    background-color: #f4f4f4;
+    border: solid 3px #bebebe;
+    border-radius: 5px;
+    padding: 2%;
+    display: grid;
+    width: 50%;
+    gap: 20px;
+
+    
+}
+    
+button{
+    background-color:#333 ;
+    color: #fff;
+    border-radius: 5px;
+    padding: 3%;
+
+}
+    
+input{
+    padding: 15px;
+}    
